@@ -2,7 +2,7 @@
 
 ## About
 
-_(TODO: insert a description of the project here!)_
+A program that, given a UPC-A code, prints a barcode of a given height to the console. The program verifies that the given code is a valid code (i.e., that it consists of 12 numeric digits) and that it has been entered correctly (by computing the code's check digit and verifying it against the twelfth check digit of the code). The program also verifies that the given height is positive before rendering a barcode consisting of a pattern of white and black boxes of that height, with patterns for the quiet zones, start and end zones, and middle zone. When tested with a barcode scanning app, it can be confirmed that the program produces accurate results.
 
 ### Authors
 
@@ -12,8 +12,9 @@ _(TODO: insert a description of the project here!)_
 
 ### Resources
 
-*   _(TODO: list your resources here!)_
-*   ...
+*   Project page: https://osera.cs.grinnell.edu/ttap/data-structures-labs/barcodes.html
+*   Java documentation: https://docs.oracle.com/javase/8/docs/api/
+*   Wikipedia: https://en.wikipedia.org/wiki/Universal_Product_Code
 
 ## Write-up
 

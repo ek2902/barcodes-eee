@@ -91,6 +91,5 @@ public class StringExploration {
 
         // Problem 3
         System.out.println(forgivingPrompt("Are you a skibidi sigma based rizzler?"));
-
     }
 }
